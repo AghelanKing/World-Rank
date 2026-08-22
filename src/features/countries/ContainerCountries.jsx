@@ -21,9 +21,9 @@ function ContainerCountries() {
   useSortBy(countries);
 
   return (
-    <div className="w-[87%]n md:gap-y-0  h-[73%] p-3 bg-[#D2D5DA] dark:bg-[#1B1D1F] dark:text-[#D2D5DA] border border-stone-200 absolute left-1/2 top-[60%] rounded-2xl  -translate-1/2 shadow-lg shadow-[#323131]/60 dark:shadow-[#4c4a4a]/50 overflow-hidden">
+    <div className="w-[87%] md:gap-y-0  h-[73%] p-3 bg-[#D2D5DA] dark:bg-[#1B1D1F] dark:text-[#D2D5DA] border border-stone-200 absolute left-1/2 top-[60%] rounded-2xl  -translate-1/2 shadow-lg shadow-[#323131]/60 dark:shadow-[#4c4a4a]/50 overflow-hidden">
       <div className="flex flex-col md:flex-row items-center justify-between rounded-2xl md:border border-stone-500 p-1.5">
-        <p className="text-[#1B1D1F] dark:text-[#D2D5DA] font-medium flex mb-5 text-lg md:text-base">
+        <p className="text-[#1B1D1F] dark:text-[#D2D5DA] font-medium flex mb-5 md:mb-0 text-lg md:text-base">
           Found{" "}
           {isLoading ? (
             <HashLoader
@@ -44,7 +44,7 @@ function ContainerCountries() {
 
         <SearchCountries isLoading={isLoading} />
       </div>
-      <div className="flex flex-col md:flex-row items-center md:justify-between py-2.5 h-[90%] w-full">
+      <div className="flex flex-col lg:flex-row items-center md:justify-between py-2.5 h-[90%] w-full">
         <CountriesOperation />
         <CountriesTable countries={sortedCountries} isLoading={isLoading} />
       </div>

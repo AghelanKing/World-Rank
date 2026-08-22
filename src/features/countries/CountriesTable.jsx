@@ -4,7 +4,7 @@ import CountriesItem from "./CountriesItem";
 
 function CountriesTable({ countries, isLoading }) {
   return (
-    <div className="w-full md:w-[72.3%] rounded-2xl h-[40%] md:h-full flex flex-col items-center border border-stone-500 py-6 px-4 overflow-auto">
+    <div className="w-full lg:w-[72.3%] rounded-2xl h-[40%] md:h-full flex flex-col items-center border border-stone-500 py-6 px-4 overflow-auto">
       <div className="w-full flex items-center justify-around border-b border-stone-500 pb-2 md:text-center">
         <div className="w-[20%]">Flag</div>
         <div className="w-[20%]">Name</div>

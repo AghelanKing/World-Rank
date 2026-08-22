@@ -3,7 +3,7 @@ import RegionButtons from "./RegionButtons";
 
 function CountriesOperation() {
   return (
-    <div className="w-full md:w-[27%] rounded-2xl h-1/2 mb-2 md:h-full border border-stone-500 p-4">
+    <div className="w-full lg:w-[27%] rounded-2xl h-1/2 mb-2 md:h-full border border-stone-500 p-4">
       <SortBy
         options={[
           { value: "names-common-asc", label: "Sort by name (A-Z)" },

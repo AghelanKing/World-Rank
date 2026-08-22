@@ -16,7 +16,7 @@ function RegionButtons({ options }) {
           <button
             onClick={() => dispatch(changeRegion(option))}
             key={option}
-            className={`mx-2 my-2 p-2 rounded-full hover:bg-[#a8bce7] text-sm md:text-base dark:hover:bg-[#4E80EE] w-[22%] md:w-[28%] ${region === option ? "bg-[#a8bce7] dark:bg-[#4E80EE]" : ""}`}
+            className={`mx-2 my-2 p-2 rounded-full hover:bg-[#a8bce7] text-sm md:text-base dark:hover:bg-[#4E80EE] w-[22%] sm:w-[15%] lg:w-[25%] ${region === option ? "bg-[#a8bce7] dark:bg-[#4E80EE]" : ""}`}
           >
             {option}
           </button>

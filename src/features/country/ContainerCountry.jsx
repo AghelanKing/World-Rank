@@ -58,7 +58,7 @@ function ContainerCountry() {
         />
       )}
       <div
-        className={`w-[97%] md:w-[54%] h-[73%] bg-[#D2D5DA] border border-stone-200 absolute flex items-center flex-col ${isLoading || !country?.data?.objects?.at(0) ? "justify-center" : ""} left-1/2 top-[60%] rounded-2xl  -translate-1/2 shadow-lg shadow-[#323131]/60 dark:shadow-[#4c4a4a]/50 text-[#1B1D1F] overflow-auto dark:bg-[#1B1D1F] dark:text-[#D2D5DA]`}
+        className={`w-[97%] md:w-[85%] lg:w-[74%] xl:w-[65%] h-[73%] bg-[#D2D5DA] border border-stone-200 absolute flex items-center flex-col ${isLoading || !country?.data?.objects?.at(0) ? "justify-center" : ""} left-1/2 top-[60%] rounded-2xl  -translate-1/2 shadow-lg shadow-[#323131]/60 dark:shadow-[#4c4a4a]/50 text-[#1B1D1F] overflow-auto dark:bg-[#1B1D1F] dark:text-[#D2D5DA]`}
       >
         {isLoading ? (
           <CountryLoader isLoading={isLoading} size={70} />
