@@ -1,5 +1,5 @@
 import CountriesLoader from "../../ui/CountriesLoader";
-import Message from "../../ui/message";
+import Message from "../../ui/Message";
 import CountriesItem from "./CountriesItem";
 
 function CountriesTable({ countries, isLoading }) {

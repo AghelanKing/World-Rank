@@ -4,7 +4,7 @@ import CountryList from "./CountryList";
 import { useBorders } from "../../hooks/useBorders";
 import BordersList from "./BordersList";
 import CountryLoader from "../../ui/CountryLoader";
-import Message from "../../ui/message";
+import Message from "../../ui/Message";
 
 const paragraphStyle =
   "bg-[#a8bce7] dark:bg-[#4E80EE] dark:text-[#dee2eb] p-2 rounded-2xl text-sm md:text-base";
