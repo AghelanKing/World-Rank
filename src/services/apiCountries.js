@@ -12,7 +12,7 @@ export async function getCountries(query = "", region = "") {
 
   const res = await fetch(urlCountries, {
     headers: {
-      Authorization: "Bearer rc_live_b5d958c4354a400a988c65add70062bb",
+      Authorization: "Bearer rc_live_ee547835fce748bdba133b9be094337c",
     },
   });
 
