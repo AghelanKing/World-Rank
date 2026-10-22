@@ -26,7 +26,7 @@ export async function getCountry(name) {
     `${BASE_URL}countries/v5/names.common/${encodeURIComponent(name)}`,
     {
       headers: {
-        Authorization: "Bearer rc_live_b5d958c4354a400a988c65add70062bb",
+        Authorization: "Bearer rc_live_ee547835fce748bdba133b9be094337c",
       },
     },
   );
@@ -41,7 +41,7 @@ export async function getBorders(code) {
     `${BASE_URL}countries/v5/borders/${encodeURIComponent(code)}`,
     {
       headers: {
-        Authorization: "Bearer rc_live_b5d958c4354a400a988c65add70062bb",
+        Authorization: "Bearer rc_live_ee547835fce748bdba133b9be094337c",
       },
     },
   );

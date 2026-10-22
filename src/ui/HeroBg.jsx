@@ -2,7 +2,7 @@ import DarkModeButton from "./DarkModeButton";
 
 function HeroBg() {
   return (
-    <div className="w-full h-[40%] bg-center bg-[url('hero-image.jpg')] items-center flex justify-center">
+    <div className="w-full h-[40%] bg-center bg-[url('/hero-image.jpg')] items-center flex justify-center">
       <div className="flex gap-x-3">
         <img
           src="Logo.svg"
