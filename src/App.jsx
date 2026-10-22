@@ -6,9 +6,10 @@ import NotFoundPage from "./pages/NotFoundPage";
 
 function App() {
   return (
-    <HashRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter>
       <Routes>
-        <Route index element={<Navigate to="/countries" replace />} />
+        <Route path="/" element={<Navigate to="/countries" replace />} />
+
         <Route element={<AppLayout />}>
           <Route path="/countries" element={<Countries />} />
           <Route path="/country/:name" element={<Country />} />
